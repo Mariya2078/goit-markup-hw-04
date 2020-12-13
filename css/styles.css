@@ -47,6 +47,7 @@ img {
 }
 .navigation-list-item {
   margin-right: 50px;
+  text-decoration: none;
 }
 .address-footer {
   display: flex;
@@ -54,6 +55,7 @@ img {
 }
 .navigation-list-item-blue {
   margin-right: 50px;
+  text-decoration: none;
 }
 .container {
   width: 1200px;
@@ -100,11 +102,12 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/hero/Img\ \(1\).jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    url("../images/hero/bg.jpg"); /*задаем фон в виде картинки*/ /* обязательно задаем!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+  background-size: cover; /* обязательно задаем!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+  background-repeat: no-repeat; /* обязательно задаем!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   align-items: center;
-  flex-grow: 1;
   padding: 200px 0;
 }
 
@@ -159,6 +162,7 @@ img {
   text-transform: uppercase;
   color: #212121;
   list-style-type: none;
+  margin-bottom: 10px;
 }
 .work {
   list-style-type: none;
@@ -173,7 +177,6 @@ img {
 .futer-ul {
   list-style-type: none;
   padding-top: 20px;
-  padding-bottom: 60px;
 }
 .work-ul {
   display: flex;
@@ -193,11 +196,9 @@ img {
 .work-desk {
   padding-right: 30px;
   max-width: 275px;
-  height: 75px;
 }
 .work-desk-once {
   max-width: 275px;
-  height: 75px;
 }
 
 .photo-work {
@@ -209,6 +210,7 @@ img {
   background: #f5f4fa;
   margin: 0 auto;
   padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .work-process {
@@ -220,14 +222,14 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .work-blok {
   padding-top: 90px;
+  padding-bottom: 95px;
 }
 .person {
   margin-right: 30px;
-
   background: #ffffff;
 }
 .person-once {
@@ -283,7 +285,7 @@ img {
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 30px;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 .professional {
   font-family: "Roboto", sans-serif;
@@ -295,13 +297,14 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
   padding-top: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   text-align: center;
 }
 .cont-footer {
   display: flex;
   align-items: center;
-
+  padding-top: 60px;
+  padding-bottom: 60px;
   height: 252px;
   background: #2f303a;
 }
@@ -380,6 +383,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  padding-bottom: 4px;
 }
 .descriptin-photo-work {
   font-family: "Roboto", sans-serif;
@@ -429,7 +433,21 @@ img {
   color: white;
 }
 
-.navigation-list-item-blue,
+.navigation-list-item-blue {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.navigation-list-item-blue:hover,
+.navigation-list-item-blue:focus {
+  color: #2196f3;
+}
+
 .navigation-list-item-port-blue {
   font-family: "Roboto", sans-serif; /*задаем голубой для*/
   font-style: normal;
@@ -473,9 +491,6 @@ img {
   padding-top: 9px;
 }
 .address-footer-once {
-}
-.nav-foot {
-  padding-top: 60px;
 }
 
 /*--------------------------------ПОРТФОЛИО-------------------------------*/
@@ -524,8 +539,7 @@ img {
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-top: 95px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .button-service {
@@ -579,24 +593,109 @@ img {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.descriptin-photo {
-  margin-top: 20px;
-  margin-left: 24px;
-  width: 322px;
-  height: 36px;
+.discription-photo {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.descriptin-photo-work {
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  width: 322px;
-  height: 30px;
+.bord {
+  border-bottom: 1px solid #ececec;
 }
-/*---------------------------------------------------*/
-.navigation-list-item-blue::before {
-  content: "1.";
-  width: 16px;
-  height: 12px;
-  background: #2196f3;
+.gallery {
+  padding-bottom: 95px;
+  padding-top: 95px;
+}
+.header-phone:hover,/*hover for e-mail address*/
+.header-phone:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item:hover,/*hover for e-mail address*/
+.navigation-list-item:focus {
+  color: #2196f3;
+}
+.mail {
+  color: #757575;
   margin-right: 10px;
+}
+.mail:hover,
+.mail:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item-blue {
+  display: flex;
+  align-items: center;
+}
+.phone {
+  margin-right: 10px;
+  color: #757575;
+}
+.header-phone {
+  display: flex;
+  align-items: center;
+}
+.phone:hover,
+.phone:focus {
+  color: #2196f3;
+}
+
+.navigation-list-item-in:hover,
+.navigation-list-item-in:focus {
+  color: #2196f3;
+}
+.social-network {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.social-network-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-network-link:hover,
+.social-network-link:focus {
+  background: #2196f3;
+}
+
+.social-network-link:hover .network-photo,
+.social-network-link:focus .network-photo {
+  fill: #ffffff;
+}
+.person {
+  background: tomato;
+}
+.network-photo {
+  width: 20px;
+  height: 20px;
+  color: #afb1b8;
+}
+.footer-it {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-social {
+  display: block;
+  margin-left: 300px;
+}
+.social-network-footer {
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
 }
