@@ -655,10 +655,6 @@ img {
   color: #757575;
   margin-right: 10px;
 }
-.mail:hover,
-.mail:focus {
-  color: #2196f3;
-}
 
 .navigation-list-item-blue {
   display: flex;
@@ -671,10 +667,6 @@ img {
 .header-phone {
   display: flex;
   align-items: center;
-}
-.phone:hover,
-.phone:focus {
-  color: #2196f3;
 }
 
 .navigation-list-item-in:hover,
@@ -721,18 +713,6 @@ img {
 }
 .social-network-link-footer:hover,
 .social-network-link-footer:focus {
-  background: #2196f3;
-}
-.mail {
-  width: 20px;
-  height: 20px;
-  color: #afb1b8; /*родной цвет иконки*/
-}
-.mail {
-  fill: currentColor; /* утверждаем родной цвет*/
-}
-.mail:hover,
-.mail:focus {
   background: #2196f3;
 }
 
@@ -900,5 +880,23 @@ img {
 }
 
 .client-items-link:hover .client-photo {
+  fill: #2196f3;
+}
+.header-phone:hover .phone {
+  fill: #2196f3;
+}
+.phone {
+  fill: currentColor;
+} /* утверждаем родной цвет*/
+
+.mail {
+  width: 20px;
+  height: 20px;
+  color: #afb1b8; /*родной цвет иконки*/
+}
+.mail {
+  fill: currentColor; /* утверждаем родной цвет*/
+}
+.navigation-list-item-blue:hover .mail {
   fill: #2196f3;
 }
