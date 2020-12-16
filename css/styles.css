@@ -96,6 +96,12 @@ img {
   color: #2196f3;
 }
 
+.button-service:hover,
+.button-service:focus {
+  background-color: #2196f3;
+  color: white;
+}
+
 /*HERO*/
 .hero {
   background: #2f303a;
@@ -233,9 +239,11 @@ img {
 .person {
   margin-right: 30px;
   background: #ffffff;
+  cursor: pointer;
 }
 .person-once {
   background: #ffffff;
+  cursor: pointer;
 }
 .name-one {
   font-family: "Roboto", sans-serif;
@@ -463,13 +471,20 @@ img {
 
 .button-service {
   list-style-type: none;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  width: 128px;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  outline: none;
 }
 
 .header-phone:hover,/*hover for e-mail address*/
@@ -484,13 +499,20 @@ img {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #212121;
   margin-right: 8px;
   width: 73px;
   height: 38px;
-  background: #2196f3;
-  border-radius: 4px;
   cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.button-service-white:hover,
+.button-service-white:focus {
+  background-color: #2196f3;
+  color: white;
 }
 
 .address-footer {
@@ -559,9 +581,10 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  outline: none;
 }
 
 .button-service-two {
@@ -576,10 +599,17 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  outline: none;
 }
+.button-service-two:hover,
+.button-service-two:focus {
+  background-color: #2196f3;
+  color: white;
+}
+
 .button-service-three {
   margin-right: 8px;
   width: 103px;
@@ -592,24 +622,35 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  outline: none;
+}
+.button-service-three:hover,
+.button-service-three:focus {
+  background-color: #2196f3;
+  color: white;
 }
 .button-service-four {
   width: 130px;
   height: 38px;
   background: #f5f4fa;
-  border-radius: 4px;
   cursor: pointer;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  border-radius: 4px;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
+  outline: none;
+}
+.button-service-four:hover,
+.button-service-four:focus {
+  background-color: #2196f3;
+  color: white;
 }
 .work-once {
   list-style: none;
@@ -622,12 +663,25 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  cursor: pointer;
 }
+.photo-portfolio-once:hover,
+.photo-portfolio-once:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.photo-portfolio-twice:hover,
+.photo-portfolio-twice:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .photo-portfolio-twice {
   margin-bottom: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  cursor: pointer;
 }
 .discription-photo {
   padding-left: 24px;
@@ -739,30 +793,19 @@ img {
   justify-content: center;
   align-items: center;
 }
-.person {
+.person:hover,
+.person:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.person-once {
+.person-once:hover,
+.person-once:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.photo-portfolio-once {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-.photo-portfolio-twice {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+
 .footer-it {
   font-family: Roboto;
   font-style: normal;
