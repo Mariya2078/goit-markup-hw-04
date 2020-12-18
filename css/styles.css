@@ -240,10 +240,14 @@ img {
   margin-right: 30px;
   background: #ffffff;
   cursor: pointer;
+  max-width: 270px;
+  height: 428px;
 }
 .person-once {
   background: #ffffff;
   cursor: pointer;
+  max-width: 270px;
+  height: 428px;
 }
 .name-one {
   font-family: "Roboto", sans-serif;
@@ -253,8 +257,8 @@ img {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 59px;
+  padding-right: 59px;
   padding-top: 30px;
   padding-bottom: 10px;
 }
@@ -920,12 +924,19 @@ img {
 }
 .client-items-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
 }
 
 .client-items-link:hover .client-photo {
   fill: #2196f3;
 }
 .header-phone:hover .phone {
+  fill: #2196f3;
+}
+.header-phone:focus .phone {
   fill: #2196f3;
 }
 .phone {
@@ -942,4 +953,12 @@ img {
 }
 .navigation-list-item-blue:hover .mail {
   fill: #2196f3;
+}
+.navigation-list-item-blue:focus .mail {
+  fill: #2196f3;
+}
+
+.client-items:hover,
+.client-items:focus {
+  border-color: #2196f3;
 }
