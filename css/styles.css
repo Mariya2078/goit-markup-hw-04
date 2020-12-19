@@ -155,7 +155,6 @@ img {
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
-
   margin: 0 auto;
 }
 /*OUR WORK IDEA */
@@ -299,7 +298,7 @@ img {
   padding-left: 60px;
   padding-right: 60px;
   padding-top: 30px;
-  /*padding-bottom: 10px;*/
+  padding-bottom: 10px;
 }
 .professional {
   font-family: "Roboto", sans-serif;
@@ -398,6 +397,7 @@ img {
   letter-spacing: 0.06em;
   color: #212121;
   padding-bottom: 4px;
+  text-decoration: none;
 }
 .descriptin-photo-work {
   font-family: "Roboto", sans-serif;
@@ -407,6 +407,7 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
+  text-decoration: none;
 }
 .navigation-logo {
   font-family: Raleway;
@@ -669,8 +670,12 @@ img {
   box-sizing: border-box;
   cursor: pointer;
 }
-.photo-portfolio-once:hover,
-.photo-portfolio-once:focus {
+
+.portfolio-shadow {
+  display: block;
+}
+.portfolio-shadow:hover,
+.portfolio-shadow:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -958,7 +963,6 @@ img {
   fill: #2196f3;
 }
 
-.client-items:hover,
-.client-items:focus {
+.client-items-link:focus {
   border-color: #2196f3;
 }
