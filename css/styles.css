@@ -669,10 +669,11 @@ img {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .portfolio-shadow {
-  display: block;
+  text-decoration: none;
 }
 .portfolio-shadow:hover,
 .portfolio-shadow:focus {
@@ -697,6 +698,7 @@ img {
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-decoration: none;
 }
 .bord {
   border-bottom: 1px solid #ececec;
@@ -963,6 +965,9 @@ img {
   fill: #2196f3;
 }
 
-.client-items-link:focus {
+.client-items-link:focus .client-photo {
+  border-color: #2196f3;
+}
+.client-items-link:focus .client-photo {
   border-color: #2196f3;
 }
