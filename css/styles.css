@@ -934,6 +934,9 @@ img {
   display: flex;
   align-items: center;
 }
+.client-photo {
+  fill: currentColor; /* утверждаем родной цвет*/
+}
 
 .client-items-link {
   display: flex;
@@ -943,13 +946,9 @@ img {
   width: 170px;
   height: 90px;
 }
-.client-photo {
-  fill: currentColor; /* утверждаем родной цвет*/
-}
 
-.client-items-link:hover {
+.client-items-link:hover .client-photo {
   color: #2196f3;
-  border: 1px solid #afb1b8;
 }
 .header-phone:hover .phone {
   fill: #2196f3;
@@ -975,7 +974,11 @@ img {
 .navigation-list-item-blue:focus .mail {
   fill: #2196f3;
 }
+.client-items-link:hover {
+  border-color: #2196f3;
+}
 
+.client-items-link:hover .client-photo,
 .client-items-link:focus .client-photo {
   color: #2196f3;
 }
