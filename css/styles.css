@@ -934,55 +934,7 @@ img {
   display: flex;
   align-items: center;
 }
-.client-photo {
-  fill: currentColor; /* утверждаем родной цвет*/
-}
-.client-items-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 90px;
-}
 
-.client-items-link:hover .client-photo {
-  fill: #2196f3;
-}
-.header-phone:hover .phone {
-  fill: #2196f3;
-}
-.header-phone:focus .phone {
-  fill: #2196f3;
-}
-.phone {
-  fill: currentColor;
-} /* утверждаем родной цвет*/
-
-.mail {
-  width: 20px;
-  height: 20px;
-  color: #afb1b8; /*родной цвет иконки*/
-}
-.mail {
-  fill: currentColor; /* утверждаем родной цвет*/
-}
-.navigation-list-item-blue:hover .mail {
-  fill: #2196f3;
-}
-.navigation-list-item-blue:focus .mail {
-  fill: #2196f3;
-}
-
-.client-items-link:focus .client-photo {
-  border-color: #2196f3;
-}
-.client-items-link:focus .client-photo {
-  border-color: #2196f3;
-}
-.client-photo {
-  /* думай*/
-  color: currentColor; /* утверждаем родной цвет*/
-}
 .client-items-link {
   display: flex;
   border: 1px solid #afb1b8;
@@ -992,14 +944,12 @@ img {
   height: 90px;
 }
 .client-photo {
-  fill: currentColor;
+  fill: currentColor; /* утверждаем родной цвет*/
 }
-.client-items-link {
-  color: #afb1b8;
-}
+
 .client-items-link:hover {
   color: #2196f3;
-  border: 1px solid #2196f3;
+  border: 1px solid #afb1b8;
 }
 .header-phone:hover .phone {
   fill: #2196f3;
@@ -1010,6 +960,7 @@ img {
 .phone {
   fill: currentColor;
 } /* утверждаем родной цвет*/
+
 .mail {
   width: 20px;
   height: 20px;
@@ -1024,6 +975,7 @@ img {
 .navigation-list-item-blue:focus .mail {
   fill: #2196f3;
 }
+
 .client-items-link:focus .client-photo {
   color: #2196f3;
 }
