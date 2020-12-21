@@ -44,10 +44,12 @@ img {
 }
 .address-mail {
   margin-right: 50px;
+  outline: none;
 }
 .navigation-list-item {
   margin-right: 50px;
   text-decoration: none;
+  outline: none;
 }
 .address-footer {
   display: flex;
@@ -77,6 +79,7 @@ img {
   color: #212121;
   text-decoration: none;
   list-style-type: none;
+  outline: none;
 }
 
 .address-mail,
@@ -418,6 +421,7 @@ img {
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
+  outline: none;
 }
 .navigation-logo-footer {
   width: 145px;
@@ -456,6 +460,7 @@ img {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+  outline: none;
 }
 
 .navigation-list-item-blue:hover,
@@ -495,6 +500,7 @@ img {
 .header-phone:hover,/*hover for e-mail address*/
 .header-phone:focus {
   color: #2196f3;
+  outline: none;
 }
 
 .button-service-white {
@@ -689,6 +695,7 @@ img {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  outline: none;
 }
 
 .photo-portfolio-twice:hover,
@@ -770,6 +777,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  outline: none;
 }
 .social-network-link:hover,
 .social-network-link:focus {
@@ -793,6 +801,7 @@ img {
 .social-network-link-footer:hover,
 .social-network-link-footer:focus {
   background: #2196f3;
+  outline: none;
 }
 
 .network-photo-footer {
@@ -951,6 +960,7 @@ img {
   align-items: center;
   width: 170px;
   height: 90px;
+  outline-color: #2196f3;
 }
 
 .client-items-link:hover .client-photo {
