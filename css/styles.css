@@ -669,9 +669,12 @@ img {
   box-sizing: border-box;
   cursor: pointer;
   text-decoration: none;
-  border: none;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   outline: none;
 }
+
 .photo-portfolio-once:hover,
 .photo-portfolio-once:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -700,6 +703,9 @@ img {
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   cursor: pointer;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  outline: none;
 }
 .discription-photo {
   padding-left: 24px;
